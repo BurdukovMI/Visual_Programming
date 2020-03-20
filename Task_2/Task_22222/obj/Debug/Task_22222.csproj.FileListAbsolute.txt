@@ -1,0 +1,9 @@
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\obj\Debug\Task_22222.csprojAssemblyReference.cache
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\obj\Debug\Task_22222.Form1.resources
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\obj\Debug\Task_22222.Properties.Resources.resources
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\obj\Debug\Task_22222.csproj.GenerateResource.cache
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\bin\Debug\Task_22222.exe.config
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\bin\Debug\Task_22222.exe
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\bin\Debug\Task_22222.pdb
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\obj\Debug\Task_22222.exe
+C:\Users\rabbi\source\repos\Task_22222\Task_22222\obj\Debug\Task_22222.pdb
