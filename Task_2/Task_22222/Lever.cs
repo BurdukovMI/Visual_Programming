@@ -14,16 +14,18 @@ namespace Task_22222
     {
         int x, y, w, h;
         int cx, cy;
+        double size;
         Form1 master;
         public bool on;
-        public Lever(Form1 form) {
-            x = 530;
-            y = 100;
-            w = 50;
-            h = 150;
+        public Lever(Form1 form,int x1,int y1,double size1) {
+            x = x1;
+            y = y1;
+            size = size1;
+            w = (int)(50*size1);
+            h = (int)(150 * size1);
             on = false;
-            cx = 530;
-            cy = 100;
+            cx = x1;
+            cy = y1;
             master = form;
         }
         public void Draw(Graphics g) {
@@ -40,8 +42,8 @@ namespace Task_22222
         public void TurnOff(Graphics g) {
             master.Invalidate();
             on = false;
-            cx= cx = 530;
-            cy = 100;
+            cx= x;
+            cy = y;
             g.FillRectangle(Brushes.Gray, cx, cy, w, w);
 
         }
@@ -49,8 +51,8 @@ namespace Task_22222
         {
             master.Invalidate();
             on = true;
-            cx =530;
-            cy = 200;
+            cx = x;
+            cy = y+h-w;
             g.FillRectangle(Brushes.Gray, cx, cy, w, w);
 
         }
